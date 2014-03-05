@@ -77,7 +77,13 @@ Version-Overrides:
     - service
     - python
     - web_framework
+Private-IP-Name:   SSL_IP
+Private-Port-Name: SSL_PORT
+Private-Port:      8443
+Public-Port-Name:  SSL_PROXY_PORT
+Options:           { "ssl_to_gear": false }   
     
-Source-Md5: 528534459c2e7ce59d1bb93e0b7ff9e9
+    
+#Source-Md5: 528534459c2e7ce59d1bb93e0b7ff9e9
 
 Source-Url: https://github.com/wzheng1/pythoncart/raw/master/pycart.zip
